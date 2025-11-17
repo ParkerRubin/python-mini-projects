@@ -3,6 +3,7 @@
 Collection of small Python projects built for practice and fun. These
 mini-apps explore basic game logic, user interaction, algorithms, and 
 beginner–intermediate software design in Python.
+(These are all very beginner, but I still find them relevant to my progression)
 
 ## Projects
 
