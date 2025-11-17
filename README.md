@@ -8,10 +8,7 @@ beginner–intermediate software design in Python.
 
 - `rock_paper_scissors/` – Classic RPS game with input validation and score tracking.
 - `wordle_clone/` – Text-based Wordle-style guessing game using string logic and feedback.
-- `number_guess/` – Random number guessing game with hints and attempt counting.
-- `hangman/` – Command-line hangman with word lists and life tracking.
-- `password_generator/` – Random password generator with length and character options.
+- `word_guess/` – Random number guessing game with hints and attempt counting.
+- `dice_guess/` – Command-line hangman with word lists and life tracking.
 - `calculator/` – Simple calculator handling basic arithmetic operations.
 
-Each folder contains its own `main.py` and a short `README.md` explaining 
-what the project does and how to run it.
