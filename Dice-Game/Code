@@ -1,1 +1,9 @@
+print("How many faces are on the dice?")
+faces = int(input())
 
+print("Rolling")
+
+import random
+number = random.randint(1, faces)
+
+print(number)
