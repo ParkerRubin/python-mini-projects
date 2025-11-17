@@ -1,1 +1,21 @@
+import random
+secret = random.randint(1, 100)
 
+print("Guess the number im thinking of")
+guess = int(input())
+
+if guess < secret:
+    print("Greater")
+elif guess == secret:
+    print("yes")
+else:
+    print("Less")
+
+while guess != secret:
+    guess = int(input("Try again: "))
+    if guess < secret:
+       print("Greater")
+    elif guess == secret:
+       print("You got it!")
+    else:
+       print("Less")
