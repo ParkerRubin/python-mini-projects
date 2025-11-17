@@ -1,1 +1,18 @@
+import random
 
+print("Guess a 5 letter word")
+answer = random.choice(["pizza", "apple", "grape", "house", "rhino"])
+guess = input()
+
+while guess != answer:
+    hint = ""
+    for i in range(len(answer)):
+        if i < len(guess) and guess[i] == answer[i]:
+            hint += guess[i]
+        else:
+            hint += "_ "
+    print("Hint:", hint)
+
+    guess = input("Guess again: ")
+
+print("You got it!")
