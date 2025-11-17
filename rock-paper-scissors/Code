@@ -1,1 +1,16 @@
+print("Rock, Paper, or Scissors?")
 
+import random
+computer = random.choice(["Rock", "Paper", "Scissors"])
+player = input()
+
+if player == computer:
+    print("Tie!")
+elif player == "rock" and computer == "scissors":
+    print("You win!")
+elif player == "scissors" and computer == "paper":
+    print("You win!")
+elif player == "paper" and computer == "rock":
+    print("You win!")
+else:
+    print("You lose!")
